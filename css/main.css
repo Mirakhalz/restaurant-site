@@ -1,0 +1,208 @@
+/***** BASE STYLES ******/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+h1,
+h2,
+h3 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+
+h1 {
+    font-size: 30px;
+    float: left;
+    margin: 0;
+    padding: 38px 0;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0 33px;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    color: #77a466;
+    text-decoration: none;
+}
+
+/***** TOP SECTION-MAIN-BOTTOM SECTION*****/
+
+.top-section,
+.bottom-section {
+    margin: 0 auto;
+    clear: both;
+}
+
+.main-image {
+    height: auto;
+    float: left;
+}
+
+.main-image img {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+
+.main-title {
+    height: auto;
+    float: left;
+}
+
+.main-title h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 0;
+    text-transform: uppercase;
+}
+
+.main-title p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.bottom-section {
+    border-top: 1px solid #dedbdc;
+}
+
+/***** SECTION-ONE-TWO-THREE *****/
+
+.menu {
+    list-style: none;
+    padding: 0;
+    line-height: 18px;
+}
+
+.menu li {
+    color: #77a466;
+    padding: 10px 0px;
+    list-style-type: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+div.section-one {
+    width: 400px;
+    float: left;
+    height: auto;
+    border-right: 1px solid #dedbdc;
+}
+
+div.section-two {
+    width: 400px;
+    float: left;
+    height: auto;
+    border-right: 1px solid #dedbdc;
+}
+
+div.section-three {
+    width: 400px;
+    float: right;
+    height: auto;
+}
+
+.section-one h3 {
+    padding: 10px 0;
+}
+
+.section-two h3,
+.section-three h3 {
+    padding: 10px 30px;
+}
+
+.reviews {
+    color: #000000;
+    line-height: 21px;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
+address {
+    color: #000000;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 30px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    border-top: 1px solid #dedbdc;
+    clear: both;
+}
+
+footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer span {
+    font-family: 'Galada', cursive;
+    font-size: 16px;
+    color: #77a466;
+    text-transform: lowercase;
+}
